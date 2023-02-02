@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WONSOJU</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="content-overlay"></div>
+    <header>
+        <nav id="nav">
+            <div>
+                <h1 class="logo">
+                    <img src="./images/logo.svg" alt="">
+                </h1>
+                <ul class="menu">
+                    <li>WE'RE THE WON</li>
+                    <li>WONSOJU</li>
+                    <li>ACC</li>
+                    <li>SET</li>
+                </ul>
+                <ul class="member">
+                    <li>로그인</li>
+                    <li>회원가입</li>
+                    <li class="cart-open">
+                        <img src="./images/cart.svg" alt="">
+                        <span>0</span>
+                    </li>
+                </ul>
+                <div class="cart">
+                    <div class="cart-info">
+                        <p>CART ( 0 )</p>
+                        <button class="cart-close">X</button>
+                    </div>
+                   <div class="cart-item">
+                        <p>장바구니가 비어있습니다.</p>
+                   </div>
+                   <button class="btn">장바구니로 이동</button> 
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="layout-contents" class="contents">
+        <div class="talk">
+            <img alt="WONSOJU 상담 버튼" src="https://cf.channel.io/pub-file/82849/63043b14490a9f8a0d03/won_talk.png" width="78" height="78">
+        </div>
+
+        <div class="main">
+            <div class="item">
+                <div class="product-image">
+                    <img width="100%" src="./images/list_image.jpg">
+                </div>
+                <div class="product-content">
+                    <p class="subtitle">ALCOHOL 22% | 375ML</p>
+                    <h2 class="title efont">WONSOJU 22%</h2>
+                    <p class="price">KRW 14,900</p>
+                    <p class="content">옹기숙성을 거친 감압식 증류방식으로 탄생하여<br/>부드러운 목넘김이 일품인 전통 증류식 소주</p>
+                    <a href="" class="wonsoju-btn">
+                        <span>BUY NOW</span>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product-image">
+                    <img width="100%" src="./images/list_image2.jpg">
+                </div>
+                <div class="product-content">
+                    <p class="subtitle">ALCOHOL 28% | 375ML</p>
+                    <h2 class="title efont">WONSOJU CLASSIC 28%</h2>
+                    <p class="price">KRW 21,900</p>
+                    <p class="content">동증류기 상압방식으로 증류하여 <br/>풍부한 아로마와 깊고 부드러운 맛이 특징인 전통 증류식 소주</p>
+                    <a href="" class="wonsoju-btn">
+                        <span>BUY NOW</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-video">
+            <div class="intro">
+                <div class="content">
+                    <div class="title">
+                        <p>한국 전통 증류식 소주</p>
+                        <p>어디까지 알고 계신가요?</p>
+                    </div>
+                    <p>과실이나 곡물을 원료로 하여 술을 빚은 것은 오래된 일이지만, 이것을 다시 증류하여 만든 소주는 인간의 지혜가 상당히 진보된 후대의 산물입니다.</p>
+                    <p>술의 증류법은 중세기 페르시아에서 발달되었다고 하며, 아라비아에서 원나라, 만주를 거쳐 우리나라에 전해진 것으로 추측됩니다.</p>
+                    <p>소주가 우리나라에 도입된 시기는 고려 시대, 몽골을 통해 도입되었고 조선시대에는 더욱 유행되어 이에 관한 기록도 많이 보고 되었습니다.</p>
+                </div>
+            </div>
+            <div class="video banner-text">
+                <video id="won_video" loop autoplay muted="muted" height="100%" playsinline>
+                    <source src="https://1290428371.rsc.cdn77.org/movie.mp4" type="video/mp4" width="100%"></source>
+                </video>
+            </div>
+        </div>
+        
+        <div class="product-desc">
+            <div class="flex">
+                <div class="swiper product-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide img">
+                            <img width="100%" src="./images/img_won_list_01.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img width="100%" src="./images/img_won_list_02.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img width="100%" src="./images/img_won_list_03.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img width="100%" src="./images/img_won_list_04.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper product-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide content">
+                            <p class="title">HISTORY</p>
+                            <p>증류식 소주란, 쌀이나 고구마 등 곡물로 담근 밑술을</p>
+                            <p>증류하여 얻는 한국의 전통 증류주입니다. 증류 기법은 고려 시대부터</p>
+                            <p>전수되었으며, 쌀이 귀했던 조선 시대에는 약을 음용하듯 마셔</p>
+                            <p>'약주'라고도 불렸습니다.</p>
+                        </div>
+                        <div class="swiper-slide content">
+                            <p class="title">DISTILLATION METHODS</p>
+                            <p>끓는점의 차이에 따라 감압식과 상압식 증류로 구분되며,</p>
+                            <p>두 방식 모두 원료 본연의 맛을 풍부하게 재현합니다.</p>
+                            <p>현대식 설비기술을 사용하여, 13세기부터 이어져온 전통 소주의</p>
+                            <p>역사를 계승하고 있습니다.</p>
+                        </div>
+                        <div class="swiper-slide content">
+                            <p class="title">ADDITIVE-FREE</p>
+                            <p>원소주는 남한강 상류의 섬강 주변에서 재배된</p>
+                            <p>강원 원주의 특산품, 원주쌀 토토미로 제조됩니다.</p>
+                            <p>어떠한 인공감미료도 첨가하지 않고 오로지 쌀 100%를</p>
+                            <p>사용해 만들었습니다.</p>
+                        </div>
+                        <div class="swiper-slide content">
+                            <p class="title">TASTING NOTES</p>
+                            <p>쌀로만 증류한 원소주는 쌀 본연의 곡물향이</p>
+                            <p>은은하게 퍼지는 것이 장점이며, 숙성의 과정을 거쳐</p>
+                            <p>알코올 특유의 쓴맛이 덜하고 깔끔하고 깨끗한</p>
+                            <p>뒷맛을 자랑합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="animation">
+            <div class="">
+                <div id="banner-top" class="banner-text top">
+                    <span>FOR THE PAST&amp;TO THE FUTURE•FOR THE PAST&amp;TO THE FUTURE</span>
+                </div>
+                <div class="ani-img1 img">
+                    <img src="./images/img_won_list_001.jpg">
+                </div>
+                <div class="ani-img2 img">
+                    <img  src="./images/img_won_list_002.jpg">
+                </div>
+                <div class="ani-img3 img">
+                    <img  src="./images/img_won_list_003.jpg">
+                </div>
+                <svg class="circle-svg" viewbox="0 0 100 100" width="200" height="200" id="pin4-6" style="fill: #fff;">
+                    <defs>
+                        <path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"></path>
+                    </defs>
+                    <text font-size="10.8" letter-spacing="0.5" font-weight="300">
+                        <textpath xlink:href="#circle">
+                            FOR THE PAST&amp;TO THE FUTURE - FOR THE PAST&amp;TO THE FUTURE -
+                        </textpath>
+                    </text>
+                </svg>
+                <div id="banner-bottom" class="banner-text bottom">
+                    <span>FOR THE PAST&amp;TO THE FUTURE•FOR THE PAST&amp;TO THE FUTURE</span>
+                </div>
+            </div>
+            <div class="content">
+                <h4>원소주가 소주를 만드는 방법</h4>
+                <p>원소주는 다양한 증류방식과 숙성방식의 차이에서 오는 소주의</p>
+                <p>묘미를 알리고자 합니다. 다양한 제조법과 함께 우리 소주의 스펙트럼을 다채로이</p>
+                <p>확장해나가는 원소주, 한끗의 디테일에서 오는 풍미의 세계를 경험해보세요.</p>
+            </div>
+        </div>
+
+        <div class="distillation">
+            <div class="distill-item img">
+                <img src="./images/img_won_list_distillation_01.jpg" alt="">
+                <div class="content">
+                    <h3>DECOMPRESSION DISTILLATION</h3>
+                    <h4>감압식 증류방식</h4>
+                    <p>낮은 온도에서 증류하고 압을 낮춰 여과를 빠르게 함으로써 불순물을 제거하는 과정을 거칩니다.</p>
+                    <p>높은 도수에도 향과 맛이 부드러운 전통 증류식 소주 제조에 활용되는 방식으로,상압식 증류방식보다</p>
+                    <p>깨끗한 목넘김과 깔끔한 맛을 자랑합니다.</p>
+                    <button type="button">BUY WONSOJU 22%</button>
+                </div>
+            </div>
+            <div class="distill-item img">
+                <img src="./images/img_won_list_distillation_02.jpg" alt="">
+                <div class="content">
+                    <h3>ATMOSPHERIC DISTILLATION</h3>
+                    <h4>상압식 증류방식</h4>
+                    <p>상온에서 압을 가해 끓이는 방식으로, 증류 과정에서 직화 혹은 증기 가열을 거칩니다.</p>
+                    <p>전통 증류식 소주 특유의 짙은 향미에 최적화된 증류방식으로, 감압식 증류방식에 비해</p>
+                    <p>더욱 농후하고 풍부한 아로마를 자랑합니다.</p>
+                    <button type="button">COMING SOON</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pottery">
+            <div class="content">
+                <span>TRADITIONAL POTTERY DECANTING</span>
+                <h4>원소주는 장인이 손수 만든<br />전통 옹기로 숙성합니다.</h4>
+                <p>깔끔한 맛에 더 부드러운 목넘김을 주기 위해 옹기숙성을 진행하고 있으며</p>
+                <p>옹기 숙성 여부에 따른 맛의 차이도 함께 느껴보세요.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="foot-top">
+            <ul>
+                <li>개인정보 처리방침</li>
+                <li>이용약관</li>
+            </ul>
+        </div>
+        <div class="foot-cont">
+            <div>
+                <span class="bold">원스피리츠 주식회사 농업회사법인</span>
+                <ul>
+                    <li>Owner : 박재범</li>
+                    <li>Address : 강원도 원주시 지정면 월송석화로 288 나동 1층</li>
+                    <li>Business License: 515-86-02178 </li>
+                    <li>Online business license : 2022-강원원주-00198</li>
+                    <li>Copyright © 원스피리츠 주식회사 농업회사법인. All rights reserved.</li>
+                </ul>
+            </div>
+            <div>
+                <span class="bold">070-4349-3175</span>
+                <ul>
+                    <li>모든 CS는 홈페이지 내 채널톡을 통해 접수 바랍니다.</li><br/>
+                    <li>그 외 채널을 통한 문의는 접수가 불가능합니다.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script>
+        var swiper = new Swiper(".product-slide", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            controller: {
+                inverse: true,
+            },
+        });
+      </script>
+</body>
+</html>
