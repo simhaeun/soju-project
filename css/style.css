@@ -11,16 +11,13 @@ html {
     font-size: 15px;
 }
 body {
+    width: 100%;
     background: #000;
     color: #fff;
     font-family: 'Pretendard';
 }
-
 ul li {list-style: none;}
-
 img {object-fit: cover;}
-
-
 
 
 
@@ -63,7 +60,8 @@ header nav {
     line-height: 80px;
     transition: all .8s ease-in-out;
 }
-header nav>div {
+header nav > div {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -182,7 +180,7 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     width: 50%;
 }
 
-.main .product-content {
+.product-content {
     position: absolute;
     bottom: -4em;
     display: block;
@@ -194,6 +192,7 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     font-size: 3.5rem;
     font-weight: 600;
     padding: 1rem 0;
+    font-family: "alternate-gothic-atf",sans-serif;
 }
 .product-content .price {
     padding-bottom: 1rem
@@ -242,7 +241,9 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
 .flex {display: flex;}
 .flex .item {width: 50%;}
 
+
 .product-slide {
+    width: 100%;
     position: relative;
 }
 .product-slide .title {
@@ -259,7 +260,6 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     overflow: hidden;
     height: 900px;
 }
-
 .swiper-wrapper {
     position: absolute;
     width: 100%;
@@ -268,13 +268,13 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     text-align: center;
     display: flex;
 }
-
 .swiper-slide img {
     height: 100%;
 }
 
+.product-desc {width: 100%;}
 .product-desc .content {
-    background: url(./images/img_won_bg.jpg)no-repeat;
+    background: url(../images/img_won_bg.jpg)no-repeat;
     background-size: cover;
     padding-top: 300px;
 }
@@ -302,7 +302,7 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
 
 .animation {
     position: relative;
-    height: 1800px;
+    padding: 100px 0;
 }
 
 .animation .content {
@@ -319,28 +319,28 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     font-family: "alternate-gothic-atf", sans-serif;
     z-index: 100;
 }
-.banner-text.top {
-    padding-top: 100px;
-}
 .banner-text.bottom {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    padding-top: 1200px;
+    padding-top: 1000px;
 }
 .banner-text.bottom span {
     overflow: hidden;
 }
-.ani-img1 {position: absolute; top: 350px; left: 200px;}
-.ani-img2 {position: absolute; top: 700px; right: 200px;}
+.ani-img1 {position: absolute; top: 160px; left: 180px;}
+.ani-img2 {position: absolute; top: 600px; right: 100px;}
 .ani-img3 {position: absolute; bottom: 250px; left: 100px;}
 
 .img {overflow: hidden;}
 
 .ani-img1 img {width: 460px;}
-.ani-img2 img {width: 400px;}
+.ani-img2 img {width: 380px;}
 .ani-img3 img {width: 700px;}
 
-
+.animation .img {
+    z-index: -1;
+    overflow: hidden;
+}
 
 
 
@@ -372,27 +372,34 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     font-family: "alternate-gothic-atf", sans-serif;
     font-size: 16px;
 }
-.distillation img {width: 680px;}
+.distillation img {
+    width: 100%;
+    max-width: 680px;
+}
 
 
 .pottery {
     height: 900px;
-    background: url(./images/img_won_list_pottery.jpg) no-repeat;
+    background: url(../images/img_won_list_pottery.jpg) center center no-repeat;
     background-size: cover;
 }
 .pottery .content {padding-top: 100px;}
-
+.pottery span {
+    display: block;
+    padding-bottom: 10px;
+    font-family: "alternate-gothic-atf", sans-serif;
+}
 .white {background: #fff;}
 
 
 
 
 .footer {
-    margin: 40px;
+    margin: 0 40px;
 }
 
 .foot-top {
-    border-top: 1px solid #bbbbbb;
+    border-top: 1px solid #505050;
     padding: 30px 0;
     font-size: 14px;
 }
@@ -400,15 +407,17 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
 .foot-top ul {
     display: flex;
 }
-
+.foot-top ul li {
+    padding-right: 2em;
+}
 .foot-cont {
-    border-top: 1px solid #bbbbbb;
+    border-top: 1px solid #505050;
     display: flex;
-    padding: 20px 0;
 }
 
-.foot-cont>div {
-    width: 500px;
+.foot-cont > div {
+    max-width: 480px;
+    padding: 30px 0;
 }
 
 .foot-cont .bold {
@@ -420,6 +429,7 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
     font-size: 11px;
     font-weight: 300;
     display: inline-block;
+    color: #bbb;
 }
 
 
@@ -468,8 +478,8 @@ p.content {font-size: 1rem; color: #bbbbbb; line-height: 1.8rem; letter-spacing:
 .circle-svg {
     font-family: "alternate-gothic-atf", sans-serif;
     position: absolute;
-    bottom: 500px;
-    right: 500px;
+    bottom: 450px;
+    right: 380px;
     animation: rotate 10s linear infinite;
     transform-origin: 50% 50%;
 }
